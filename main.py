@@ -187,8 +187,7 @@ class Model():
         else:
             return Variable(next_state).view(1,1,-1),x,y,q_idx==1,q_idx==2
 
-
-
+#####
 if __name__=="__main__":
     model = Model()
     for epoch in range(70):
